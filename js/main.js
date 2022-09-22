@@ -133,5 +133,24 @@ $(function () {
     $('.venobox').venobox();
 
 
+    //*==========STICKY SIDEBAR========= 
+    $("#sticky_sidebar").stickit({
+        top: 70,
+    });
+
+
+    //=======BRAND SLIDER====== 
+    $('.ser_det_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-chevron-left prevArrow"></i>',
+    });
+
+
 
 });

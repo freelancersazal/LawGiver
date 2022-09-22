@@ -188,16 +188,456 @@
             </div>
             <div class="wsus__expert_det_body mt_120 xs_mt_70">
                 <div class="row">
-                    <div class="col-xl-5">
-                        <div class="wsus__expert_det_sitebar">
-                            <form>
-                                <input type="text" placeholder="Search your keyword...">
-                            </form>
+                    <div class="col-xl-4">
+                        <div class="wsus__expert_det_sitebar" id="sticky_sidebar">
+                            <h2>Expert Information</h2>
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">Create Appointment</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">Working Days</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">Qualifications</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-disabled" type="button" role="tab"
+                                        aria-controls="pills-disabled" aria-selected="false">Gallery</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-disabled-tab2" data-bs-toggle="pill"
+                                        data-bs-target="#pills-disabled2" type="button" role="tab"
+                                        aria-controls="pills-disabled2" aria-selected="false">review</button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-xl-7">
+                    <div class="col-xl-8">
                         <div class="wsus__expert_det_body_text">
-
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="wsus__create_appointment">
+                                        <h3>Create Appointment</h3>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-xl-6">
+                                                    <div class="input_area">
+                                                        <label>consultation type</label>
+                                                        <select class="select_2">
+                                                            <option value="AL">online</option>
+                                                            <option value="">offline</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="input_area">
+                                                        <label>chamber</label>
+                                                        <select class="select_2">
+                                                            <option value="AL">uttara, dhaka</option>
+                                                            <option value="">dhaka</option>
+                                                            <option value="">barisal</option>
+                                                            <option value="">khulna</option>
+                                                            <option value="">rajshahi</option>
+                                                            <option value="">bogura</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="input_area">
+                                                        <label>select date</label>
+                                                        <input type="date">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="input_area">
+                                                        <label>chamber</label>
+                                                        <select class="select_2">
+                                                            <option value="AL">uttara, dhaka</option>
+                                                            <option value="">dhaka</option>
+                                                            <option value="">barisal</option>
+                                                            <option value="">khulna</option>
+                                                            <option value="">rajshahi</option>
+                                                            <option value="">bogura</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="common_btn" type="submit">submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <div class="wsus__schedule">
+                                        <h3>Working Days</h3>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="day">days</th>
+                                                        <th class="schedule">schedule</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="day">Sunday</td>
+                                                        <td class="schedule">
+                                                            <span>10.00 am to 12.00 pm</span>
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">Monday</td>
+                                                        <td class="schedule">
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                            <span>07.00 pm to 09.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">tuesday</td>
+                                                        <td class="schedule">
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">Wednesday</td>
+                                                        <td class="schedule">
+                                                            <span>10.00 am to 12.00 pm</span>
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">Thursday</td>
+                                                        <td class="schedule">
+                                                            <span>10.00 am to 12.00 pm</span>
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">friday</td>
+                                                        <td class="schedule">
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="day">saturday</td>
+                                                        <td class="schedule">
+                                                            <span>10.00 am to 12.00 pm</span>
+                                                            <span>02.00 pm to 04.00 pm</span>
+                                                            <span>04.00 pm to 06.00 pm</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab" tabindex="0">
+                                    <div class="wsus__qualification">
+                                        <h3>Educational Qualification :</h3>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="wsus__single_qualification">
+                                                    <span><i class="fas fa-book-open"></i></span>
+                                                    <h4>University of Edinburgh</h4>
+                                                    <h5>Bachelor of Law</h5>
+                                                    <h6>2015-2017</h6>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                        do
+                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Ut
+                                                        enim ad minim veniam </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="wsus__single_qualification">
+                                                    <span><i class="fas fa-book-open"></i></span>
+                                                    <h4>University of Edinburgh</h4>
+                                                    <h5>Bachelor of Law</h5>
+                                                    <h6>2015-2017</h6>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                        do
+                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Ut
+                                                        enim ad minim veniam </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <h3>Experience :</h3>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="wsus__single_experience"
+                                                    style="background: url(images/experience_img_1.jpg);">
+                                                    <div class="wsus__single_experience_text">
+                                                        <h4>Finance Defence Law</h4>
+                                                        <p>Sed ut perspiciatis unde omnis iste sit voluptatem
+                                                            acusantium
+                                                            doloremque laudantium,
+                                                            totam rem aperiam, eaque ipsa quae ab illo. totam rem
+                                                            aperiam, eaque ipsa quae ab illo totam rem
+                                                            aperiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="wsus__single_experience"
+                                                    style="background: url(images/experience_img_2.jpg);">
+                                                    <div class="wsus__single_experience_text">
+                                                        <h4>Finance Defence Law</h4>
+                                                        <p>Sed ut perspiciatis unde omnis iste sit voluptatem
+                                                            acusantium
+                                                            doloremque laudantium,
+                                                            totam rem aperiam, eaque ipsa quae ab illo. totam rem
+                                                            aperiam, eaque ipsa quae ab illo totam rem
+                                                            aperiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
+                                    aria-labelledby="pills-disabled-tab" tabindex="0">
+                                    <div class="wsus__gallery">
+                                        <h3>Image Gallery</h3>
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_gallery">
+                                                    <a class="venobox" data-gall="gallery01"
+                                                        href="images/gallery_1.jpg">
+                                                        <img src="images/gallery_1.jpg" alt="gallery1"
+                                                            class="img-fluid w-100">
+                                                        <div class="gal_img_overlay">
+                                                            <i class="fas fa-search-plus"></i>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_gallery">
+                                                    <a class="venobox" data-gall="gallery01"
+                                                        href="images/gallery_2.jpg">
+                                                        <img src="images/gallery_2.jpg" alt="gallery1"
+                                                            class="img-fluid w-100">
+                                                        <div class="gal_img_overlay">
+                                                            <i class="fas fa-search-plus"></i>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_gallery">
+                                                    <a class="venobox" data-gall="gallery01"
+                                                        href="images/gallery_3.jpg">
+                                                        <img src="images/gallery_3.jpg" alt="gallery1"
+                                                            class="img-fluid w-100">
+                                                        <div class="gal_img_overlay">
+                                                            <i class="fas fa-search-plus"></i>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <h3>video Gallery</h3>
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_video">
+                                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                                        href="https://youtu.be/fsSN6jDtJdY">
+                                                        <img src="images/gallery_3.jpg" alt="vision"
+                                                            class="img-fluid w-100">
+                                                        <span class="play_btn"><i class=" fas fa-play"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_video">
+                                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                                        href="https://youtu.be/fsSN6jDtJdY">
+                                                        <img src="images/gallery_2.jpg" alt="vision"
+                                                            class="img-fluid w-100">
+                                                        <span class="play_btn"><i class=" fas fa-play"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="wsus__single_video">
+                                                    <a class="venobox" data-autoplay="true" data-vbtype="video"
+                                                        href="https://youtu.be/fsSN6jDtJdY">
+                                                        <img src="images/gallery_1.jpg" alt="vision"
+                                                            class="img-fluid w-100">
+                                                        <span class="play_btn"><i class=" fas fa-play"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-disabled2" role="tabpanel"
+                                    aria-labelledby="pills-disabled-tab2" tabindex="0">
+                                    <div class="wsus__review">
+                                        <h3>review</h3>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="wsus__single_review">
+                                                    <div class="wsus__single_review_img">
+                                                        <img src="images/testi_img_1.jpg" alt="review"
+                                                            class="img-fluid w-100">
+                                                    </div>
+                                                    <div class="wsus__single_review_text">
+                                                        <h4>Jhon Deo
+                                                            <span>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="far fa-star"></i>
+                                                            </span>
+                                                        </h4>
+                                                        <h6>10 May, 2022 At 4.20 Pm</h6>
+                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                                            voluptatem accusantiu
+                                                            m doloremque into the laudaiiil ntium, totam rem aperiam,
+                                                            eaque ipsata quae ab illo inventore veritatis et quasi
+                                                            architectoe beatae vitae dictainto sunt explicabo sed ut.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="wsus__single_review">
+                                                    <div class="wsus__single_review_img">
+                                                        <img src="images/testi_img_2.jpg" alt="review"
+                                                            class="img-fluid w-100">
+                                                    </div>
+                                                    <div class="wsus__single_review_text">
+                                                        <h4>Peter Johnson
+                                                            <span>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="far fa-star"></i>
+                                                            </span>
+                                                        </h4>
+                                                        <h6>10 May, 2022 At 4.20 Pm</h6>
+                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                                            voluptatem accusantiu
+                                                            m doloremque into the laudaiiil ntium, totam rem aperiam,
+                                                            eaque ipsata quae ab illo inventore veritatis et quasi
+                                                            architectoe beatae vitae dictainto sunt explicabo sed ut.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="wsus__single_review">
+                                                    <div class="wsus__single_review_img">
+                                                        <img src="images/testi_img_3.jpg" alt="review"
+                                                            class="img-fluid w-100">
+                                                    </div>
+                                                    <div class="wsus__single_review_text">
+                                                        <h4>Walkar Jamson
+                                                            <span>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="far fa-star"></i>
+                                                            </span>
+                                                        </h4>
+                                                        <h6>10 May, 2022 At 4.20 Pm</h6>
+                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit
+                                                            voluptatem accusantiu
+                                                            m doloremque into the laudaiiil ntium, totam rem aperiam,
+                                                            eaque ipsata quae ab illo inventore veritatis et quasi
+                                                            architectoe beatae vitae dictainto sunt explicabo sed ut.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="wsus__pagination mt_15">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <nav aria-label="Page navigation example">
+                                                                <ul class="pagination">
+                                                                    <li class="page-item">
+                                                                        <a class="page-link" href="#"
+                                                                            aria-label="Previous">
+                                                                            <i class="far fa-chevron-left"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="page-item active"><a class="page-link"
+                                                                            href="#">1</a></li>
+                                                                    <li class="page-item"><a class="page-link"
+                                                                            href="#">2</a></li>
+                                                                    <li class="page-item"><a class="page-link"
+                                                                            href="#">3</a></li>
+                                                                    <li class="page-item">
+                                                                        <a class="page-link" href="#" aria-label="Next">
+                                                                            <i class="far fa-chevron-right"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wsus_submit_review mt_35">
+                                            <h3>submit review</h3>
+                                            <p>
+                                                select your rating :
+                                                <span>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </span>
+                                            </p>
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <input type="text" placeholder="Name">
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <input type="text" placeholder="Email">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <textarea rows="7" placeholder="Write Your Review"></textarea>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button type="submit" class="common_btn">submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -276,7 +716,7 @@
         </div>
         <div class="wsus__footer_bg pt_195">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col-xl-3">
                         <div class="wsus__footer_logo_area">
                             <a href="index.html">
@@ -315,49 +755,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
-                        <div class="wsus__footer_content">
-                            <h3>Our Gallery</h3>
-                            <span>
-                                <img src="images/footer_shapes.png" alt="shapes" class="img-fluid w-100">
-                            </span>
-                            <ul class="wsus__gallery_list">
-                                <li>
-                                    <a class="venobox" data-gall="gallery01" href="images/footer_img_1.jpg">
-                                        <img src="images/footer_img_1.jpg" alt="gallery1" class="img-fluid w-100">
-                                        <div class="gal_img_overlay">
-                                            <i class="fas fa-search-plus"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="venobox" data-gall="gallery01" href="images/footer_img_2.jpg">
-                                        <img src="images/footer_img_2.jpg" alt="gallery1" class="img-fluid w-100">
-                                        <div class="gal_img_overlay">
-                                            <i class="fas fa-search-plus"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="venobox" data-gall="gallery01" href="images/footer_img_3.jpg">
-                                        <img src="images/footer_img_3.jpg" alt="gallery1" class="img-fluid w-100">
-                                        <div class="gal_img_overlay">
-                                            <i class="fas fa-search-plus"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="venobox" data-gall="gallery01" href="images/footer_img_4.jpg">
-                                        <img src="images/footer_img_4.jpg" alt="gallery1" class="img-fluid w-100">
-                                        <div class="gal_img_overlay">
-                                            <i class="fas fa-search-plus"></i>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-4">
                         <div class="wsus__footer_content footer_contact">
                             <h3>contact us</h3>
                             <span>
@@ -397,6 +795,7 @@
     =============================-->
 
 
+
     <!--jquery library js-->
     <script src="js/jquery-3.6.0.min.js"></script>
     <!--bootstrap js-->
@@ -408,6 +807,7 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/venobox.min.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
