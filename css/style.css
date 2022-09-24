@@ -286,8 +286,8 @@ button {
     font-weight: 400;
     font-size: 13px;
     position: relative;
-    padding-right: 25px;
-    margin-right: 25px;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .wsus__topbar_left li a span {
@@ -300,7 +300,7 @@ button {
     background: var(--colorWhite);
     color: var(--colorPrimary);
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-right: 1px;
 }
 
@@ -1676,7 +1676,6 @@ footer {
 
 .wsus__subscribe_form {
     height: 100%;
-    /* width: 100%; */
     display: flex;
     align-items: center;
 }
@@ -1696,7 +1695,7 @@ footer {
 
 .wsus__subscribe_form button {
     position: absolute;
-    top: 6px;
+    top: 5px;
     right: 6px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1704,9 +1703,6 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-
-
 
 .wsus__footer_logo_area a {
     width: 150px;
@@ -1895,7 +1891,7 @@ footer {
 }
 
 .wsus__breadcrumb_text h1 {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
     color: var(--colorWhite);
     text-transform: capitalize;
@@ -4176,7 +4172,7 @@ footer {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    width: 85%;
+    width: 87%;
 }
 
 .wsus__login_input .form-check {
@@ -4226,7 +4222,7 @@ footer {
 }
 
 
-.wsus__login_form p {
+.wsus__login_form .or {
     font-weight: 600;
     font-size: 20px;
     font-family: var(--headingFont);
@@ -4236,7 +4232,7 @@ footer {
     position: relative;
 }
 
-.wsus__login_form p::after {
+.wsus__login_form .or::after {
     position: absolute;
     content: "";
     width: 40%;
@@ -4246,7 +4242,7 @@ footer {
     right: 0;
 }
 
-.wsus__login_form p::before {
+.wsus__login_form .or::before {
     position: absolute;
     content: "";
     width: 40%;
@@ -4288,6 +4284,620 @@ footer {
     background: none;
 }
 
+.wsus__login_form .go_login {
+    color: var(--colorBlack);
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wsus__login_form .go_login a {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    font-weight: 600;
+}
+
+/*===================================
+    LOGIN END 
+===================================*/
+
+
+/*===================================
+    FAQ START 
+===================================*/
+.wsus__faq_page h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/*===================================
+    FAQ END 
+===================================*/
+
+
+/*===================================
+    TERMS & CONDITION START 
+===================================*/
+.wsus__terms_condition_page {}
+
+.wsus__terms__condition_text {}
+
+.wsus__terms__condition_text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    margin-top: 17px;
+}
+
+.wsus__terms__condition_text p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.wsus__terms__condition_text ul {}
+
+.wsus__terms__condition_text ul li {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.wsus__terms__condition_text ul li::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--colorPrimary);
+    top: 5px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*===================================
+    TERMS & CONDITION END 
+===================================*/
+
+
+/*===================================
+    DASHBOARD START 
+===================================*/
+.wsus__dashboard {}
+
+.wsus__dashboard_sidebar {}
+
+.wsus__dashboard_user__area {
+    background: #EFEDED;
+    border-radius: 10px;
+    padding: 70px 20px 60px 20px;
+    text-align: center;
+}
+
+.wsus__dashboard_user__area .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__dashboard_user__area .img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__dashboard_user__area .img::after,
+.wsus__dashboard_user__area .img::before {
+    position: absolute;
+    content: "";
+    width: 135px;
+    height: 135px;
+    background: var(--colorPrimary);
+    top: -2px;
+    right: -15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+}
+
+.wsus__dashboard_user__area .img::before {
+    right: auto;
+    left: -15px;
+}
+
+.wsus__dashboard_user__area h2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.wsus__dashboard_user__area p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--colorPrimary);
+    text-transform: capitalize;
+    text-align: center;
+    font-family: var(--headingFont);
+}
+
+.wsus__dashboard_sidebar .nav {}
+
+.wsus__dashboard_sidebar .nav .nav-item {
+    width: 100%;
+}
+
+.wsus__dashboard_sidebar .nav .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--colorPrimary);
+    color: var(--colorPrimary);
+    text-transform: capitalize;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.wsus__dashboard_sidebar .nav .nav-link::after {
+    position: absolute;
+    content: "\f054";
+    color: var(--colorPrimary);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    top: 50%;
+    right: 20px;
+    font-size: 12px;
+    transform: translateY(-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.wsus__dashboard_sidebar .nav .nav-link:hover,
+.wsus__dashboard_sidebar .nav .nav-link.active {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__dashboard_sidebar .nav .nav-link:hover::after,
+.wsus__dashboard_sidebar .nav .nav-link.active::after {
+    color: var(--colorWhite);
+}
+
+
+
+
+
+
+
+.wsus__dashboard_body {}
+
+.wsus__dashboard_body h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    margin-bottom: 20px;
+}
+
+.wsus__dashboard_item {
+    background: #EFEDED;
+    border-radius: 10px;
+    padding: 60px 20px;
+    text-align: center;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin-bottom: 25px;
+}
+
+.wsus__dashboard_item span {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: var(--colorPrimary);
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    color: var(--colorWhite);
+    font-size: 22px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_item h5 {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    text-align: center;
+    margin: 15px 0px 10px 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_item p {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_item:hover {
+    background: var(--colorPrimary);
+}
+
+.wsus__dashboard_item:hover span {
+    background: var(--colorWhite);
+    color: var(--colorPrimary);
+}
+
+.wsus__dashboard_item:hover h5,
+.wsus__dashboard_item:hover p {
+    color: var(--colorWhite);
+}
+
+
+
+.wsus__ashboard_appointment {}
+
+.wsus__dashboard_body table {
+    margin: 0;
+}
+
+.wsus__dashboard_body table tr {
+    background: var(--colorWhite);
+    border: 1px solid var(--colorPrimary);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wsus__dashboard_body table th,
+.wsus__dashboard_body table td {
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    color: var(--colorPrimary);
+    text-align: center;
+}
+
+.wsus__dashboard_body table th {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_body table td {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wsus__ashboard_appointment table .sn,
+.wsus__transection_history tr .sn {
+    width: 5%;
+}
+
+.wsus__ashboard_appointment table .lawyer,
+.wsus__ashboard_appointment table .chamber,
+.wsus__ashboard_appointment table .date,
+.wsus__ashboard_appointment table .schedule,
+.wsus__ashboard_appointment table .status,
+.wsus__transection_history tr .lawyer,
+.wsus__transection_history tr .date {
+    width: 17%;
+}
+
+.wsus__dashboard_body table .action,
+.wsus__transection_history tr .fee {
+    width: 10%;
+}
+
+.wsus__dashboard_body table p {
+    font-weight: 400;
+    color: var(--colorPrimary);
+}
+
+.wsus__dashboard_body table .status p {
+    background: #28a745;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    padding: 5px 20px 6px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.wsus__dashboard_body table p.pending {
+    background: var(--colorPrimary);
+}
+
+.wsus__dashboard_body table a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    font-size: 13px;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_body table a:hover {
+    background: var(--colorBlack);
+}
+
+.wsus__appointment_modal {}
+
+.wsus__appointment_modal .btn-close {
+    width: 25px;
+    height: 25px;
+    background: var(--colorWhite);
+    top: -20px;
+    right: -20px;
+    position: absolute;
+    opacity: 1;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__appointment_modal .btn-close:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.wsus__appointment_modal .modal {}
+
+.wsus__appointment_modal .modal-dialog {
+    max-width: 850px;
+}
+
+.wsus__appointment_modal .modal-content {
+    border: none;
+    /* background-position: center !important; */
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__appointment_modal .modal-body {}
+
+
+
+
+.wsus__appointment_modal_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.wsus__appointment_modal_top span {
+    width: 150px;
+    display: block;
+}
+
+.wsus__appointment_modal_top h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+}
+
+.wsus__appointment_modal_top h5 span {
+    width: auto;
+    display: block;
+    color: var(--colorWhite);
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+
+.wsus__appointment_modal_body {}
+
+.wsus__appointment_modal_body .adress {}
+
+.wsus__appointment_modal_body .adress li {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorBlack);
+    position: relative;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+.wsus__appointment_modal_body .adress li span {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: var(--colorPrimary);
+    display: block;
+    color: var(--colorWhite);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+}
+
+
+
+
+.wsus__appointment_modal_body .client_bar {
+    justify-content: space-between;
+    border-top: 1px solid var(--colorPrimary);
+    border-bottom: 1px solid var(--colorPrimary);
+    padding: 10px 0px;
+    margin: 25px 0px 25px 0px;
+}
+
+.wsus__appointment_modal_body .client_bar li {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.wsus__appointment_modal_body h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    padding: 0;
+    margin: 0px 25px;
+}
+
+.wsus__appointment_modal_body h3 span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wsus__appointment_modal_body p {
+    font-weight: 400;
+    margin: 15px 25px 0px 25px;
+}
+
+.wsus__appointment_modal_body h6 {
+    margin: 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.wsus__appointment_modal_body .document_img {
+    margin: 0px 25px;
+}
+
+.wsus__appointment_modal_body .document_img li {
+    width: 80px;
+    height: 55px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.wsus__appointment_modal_body .document_img li:last-child {
+    margin-right: 0;
+}
+
+.wsus__appointment_modal_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--colorPrimary);
+    padding-top: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wsus__appointment_modal_footer h4 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--paraFont);
+    color: var(--colorWhite);
+}
+
+.wsus__appointment_modal_footer h4 span {
+    display: block;
+    color: var(--colorWhite);
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.wsus__appointment_modal_footer a {
+    width: 50px;
+    height: 40px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+.wsus__transection_history tr .transection_id {
+    width: 250px;
+}
+
+.wsus__transection_history tr .payment {
+    width: 170px;
+}
+
+
+
+
 
 
 
@@ -4295,8 +4905,10 @@ footer {
 
 
 /*===================================
-    LOGIN END 
+    DASHBOARD END 
 ===================================*/
+
+
 
 
 
