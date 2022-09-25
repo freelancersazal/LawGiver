@@ -151,7 +151,7 @@
     <section class="wsus__dashboard mt_95 xs_mt_45">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-3">
                     <div class="wsus__dashboard_sidebar">
                         <div class="wsus__dashboard_user__area">
                             <div class="img">
@@ -172,12 +172,12 @@
                                     aria-controls="pills-profile" aria-selected="false">Appointment</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-contact-tab" data-bs-toggle="pill"
+                                <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-contact" type="button" role="tab"
                                     aria-controls="pills-contact" aria-selected="false">Transaction History</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                                <button class="nav-link " id="pills-disabled-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-disabled" type="button" role="tab"
                                     aria-controls="pills-disabled" aria-selected="false">My Profile</button>
                             </li>
@@ -192,29 +192,27 @@
                                     aria-controls="pills-disabled2" aria-selected="false">Reviews</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-disabled-tab3" data-bs-toggle="pill"
+                                <button class="nav-link " id="pills-disabled-tab3" data-bs-toggle="pill"
                                     data-bs-target="#pills-disabled3" type="button" role="tab"
                                     aria-controls="pills-disabled3" aria-selected="false">Meeting History</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-disabled-tab4" data-bs-toggle="pill"
+                                <button class="nav-link " id="pills-disabled-tab4" data-bs-toggle="pill"
                                     data-bs-target="#pills-disabled4" type="button" role="tab"
                                     aria-controls="pills-disabled4" aria-selected="false">Upcomming Meeting</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-disabled-tab5" data-bs-toggle="pill"
+                                <button class="nav-link active" id="pills-disabled-tab5" data-bs-toggle="pill"
                                     data-bs-target="#pills-disabled5" type="button" role="tab"
                                     aria-controls="pills-disabled5" aria-selected="false">Messages</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-disabled-tab6" data-bs-toggle="pill"
-                                    data-bs-target="#pills-disabled6" type="button" role="tab"
-                                    aria-controls="pills-disabled6" aria-selected="false">logout</button>
+                                <button class="nav-link">logout</button>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-xl-9">
                     <div class="wsus__dashboard_body">
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
@@ -468,8 +466,7 @@
                                     </div>
                                     <!-- Modal -->
                                     <div class="wsus__appointment_modal">
-                                        <div class="modal fade" id="exampleModal" tabindex="-1"
-                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content"
                                                     style="background: url(images/appointmtnt_bg.jpg);">
@@ -565,7 +562,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show active" id="pills-contact" role="tabpanel"
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                                 aria-labelledby="pills-contact-tab" tabindex="0">
                                 <div class="wsus__transection_history">
                                     <h3>Transaction History</h3>
@@ -788,17 +785,1106 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab" tabindex="0">My Profile</div>
+                                aria-labelledby="pills-disabled-tab" tabindex="0">
+                                <div class="wsus__dashboard_profile">
+                                    <div class="wsus__dashboard_profile_top">
+                                        <h3>My Profile</h3>
+                                        <span>
+                                            <img src="images/dashboard_user.png" alt="user" class="img-fluid w-100">
+                                        </span>
+                                        <label for="upload_img">choose file</label>
+                                        <input type="file" id="upload_img" hidden>
+                                    </div>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <label for="name">name</label>
+                                                <input type="text" placeholder="John Doe" id="name">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label for="email">email</label>
+                                                <input type="email" placeholder="example@gmail.com" id="email">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label for="phone">phone</label>
+                                                <input type="text" placeholder="+123458765422" id="phone">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label for="address">address</label>
+                                                <input type="text" placeholder="California, USA" id="address">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label for="date">date of birth</label>
+                                                <input type="date" id="date">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label>gender</label>
+                                                <select class="select_2">
+                                                    <option value="AL">Select gender</option>
+                                                    <option value="">male</option>
+                                                    <option value="">female</option>
+                                                    <option value="">others</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="common_btn">update</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
                             <div class="tab-pane fade" id="pills-disabled1" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab1" tabindex="0">Change Password</div>
-                            <div class="tab-pane fade" id="pills-disabled2" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab2" tabindex="0">Reviews</div>
-                            <div class="tab-pane fade" id="pills-disabled3" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab3" tabindex="0">Meeting History</div>
-                            <div class="tab-pane fade" id="pills-disabled4" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab4" tabindex="0">Upcomming Meeting</div>
-                            <div class="tab-pane fade" id="pills-disabled5" role="tabpanel"
-                                aria-labelledby="pills-disabled-tab5" tabindex="0">Messages</div>
+                                aria-labelledby="pills-disabled-tab1" tabindex="0">
+                                <div class="wsus__dashboard_change_password wsus__dashboard_profile">
+                                    <h3>Change Password</h3>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <label for="current_password">Current Password</label>
+                                                <input type="password" placeholder="******" id="current_password">
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <label for="new_password">new password</label>
+                                                <input type="password" placeholder="******" id="new_password">
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <label for="confirm_password">confirm password</label>
+                                                <input type="password" placeholder="******" id="confirm_password">
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="common_btn">update</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="pills-disabled2" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab2" tabindex="0">
+                                <div class="wsus__dashboard_review wsus__transection_history">
+                                    <h3>Reviews</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="sn">SN</th>
+                                                    <th class="lawyer">Lawyer</th>
+                                                    <th class="fee">rating</th>
+                                                    <th class="comment">comment</th>
+                                                    <th class="status">status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>1</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="fee">
+                                                        <p>5.00</p>
+                                                    </td>
+                                                    <td class="comment">
+                                                        <p>Vim et alterum ornatus vivendum, ut mea solum repudiare. His
+                                                            etiam delenit tibique no, ad harum omnes scribentur qui ut
+                                                            mea solum repudiare. His etiam delenit tibique no.</p>
+                                                    </td>
+                                                    <td class="status">
+                                                        <p>Approved</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>2</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="fee">
+                                                        <p>4.00</p>
+                                                    </td>
+                                                    <td class="comment">
+                                                        <p>Vim et alterum ornatus vivendum, ut mea solum repudiare. His
+                                                            etiam delenit tibique no, ad harum omnes scribentur qui ut
+                                                            mea solum repudiare. His etiam delenit tibique no.</p>
+                                                    </td>
+                                                    <td class="status">
+                                                        <p>Approved</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>3</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="fee">
+                                                        <p>5.00</p>
+                                                    </td>
+                                                    <td class="comment">
+                                                        <p>Vim et alterum ornatus vivendum, ut mea solum repudiare. His
+                                                            etiam delenit tibique no, ad harum omnes scribentur qui ut
+                                                            mea solum repudiare. His etiam delenit tibique no.</p>
+                                                    </td>
+                                                    <td class="status">
+                                                        <p>Approved</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>4</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="fee">
+                                                        <p>4.5</p>
+                                                    </td>
+                                                    <td class="comment">
+                                                        <p>Vim et alterum ornatus vivendum, ut mea solum repudiare. His
+                                                            etiam delenit tibique no, ad harum omnes scribentur qui ut
+                                                            mea solum repudiare. His etiam delenit tibique no.</p>
+                                                    </td>
+                                                    <td class="status">
+                                                        <p>Approved</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="pills-disabled3" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab3" tabindex="0">
+                                <div class="wsus__meeting_history wsus__transection_history">
+                                    <h3>Meeting History</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="sn">SN</th>
+                                                    <th class="lawyer">Lawyer</th>
+                                                    <th class="date">time</th>
+                                                    <th class="transection_id">transection ID</th>
+                                                    <th class="payment">payment method</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>1</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Hand Cash</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>2</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Instamojo</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>3</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Razorpay</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>4</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Paypal</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>5</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Stripe</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>6</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Hand Cash</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>7</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Instamojo</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>8</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Razorpay</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>9</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Paypal</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>10</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="date">
+                                                        <p>2022-05-22</p>
+                                                    </td>
+                                                    <td class="transection_id">
+                                                        <p>MOJO2514T05A83629582</p>
+                                                    </td>
+                                                    <td class="payment">
+                                                        <p>Stripe</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="pills-disabled4" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab4" tabindex="0">
+                                <div class="wsus__upcoming_meeting  wsus__ashboard_appointment">
+                                    <h3>Upcoming Meeting</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th class="sn">SN</th>
+                                                    <th class="lawyer">Lawyer</th>
+                                                    <th class="time">time</th>
+                                                    <th class="duration">duration</th>
+                                                    <th class="meeting_id">Meeting Id</th>
+                                                    <th class="action">Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>1</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="time">
+                                                        <p>2022-05-18 12:14:AM</p>
+                                                    </td>
+                                                    <td class="duration">
+                                                        <p>25 Minutes</p>
+                                                    </td>
+
+                                                    <td class="meeting_id">
+                                                        <p>88395758885</p>
+                                                    </td>
+                                                    <td class="action">
+                                                        <a class="confirm" href="#">confirm</a>
+                                                        <a class="delete" href="#">delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>2</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="time">
+                                                        <p>2022-05-18 12:14:AM</p>
+                                                    </td>
+                                                    <td class="duration">
+                                                        <p>25 Minutes</p>
+                                                    </td>
+
+                                                    <td class="meeting_id">
+                                                        <p>88395758885</p>
+                                                    </td>
+                                                    <td class="action">
+                                                        <a class="confirm" href="#">confirm</a>
+                                                        <a class="delete" href="#">delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>3</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="time">
+                                                        <p>2022-05-18 12:14:AM</p>
+                                                    </td>
+                                                    <td class="duration">
+                                                        <p>25 Minutes</p>
+                                                    </td>
+
+                                                    <td class="meeting_id">
+                                                        <p>88395758885</p>
+                                                    </td>
+                                                    <td class="action">
+                                                        <a class="confirm" href="#">confirm</a>
+                                                        <a class="delete" href="#">delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>4</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="time">
+                                                        <p>2022-05-18 12:14:AM</p>
+                                                    </td>
+                                                    <td class="duration">
+                                                        <p>25 Minutes</p>
+                                                    </td>
+
+                                                    <td class="meeting_id">
+                                                        <p>88395758885</p>
+                                                    </td>
+                                                    <td class="action">
+                                                        <a class="confirm" href="#">confirm</a>
+                                                        <a class="delete" href="#">delete</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sn">
+                                                        <p>5</p>
+                                                    </td>
+                                                    <td class="lawyer">
+                                                        <p>Phillip Talbert</p>
+                                                    </td>
+                                                    <td class="time">
+                                                        <p>2022-05-18 12:14:AM</p>
+                                                    </td>
+                                                    <td class="duration">
+                                                        <p>25 Minutes</p>
+                                                    </td>
+
+                                                    <td class="meeting_id">
+                                                        <p>88395758885</p>
+                                                    </td>
+                                                    <td class="action">
+                                                        <a class="confirm" href="#">confirm</a>
+                                                        <a class="delete" href="#">delete</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show active" id="pills-disabled5" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab5" tabindex="0">
+                                <div class="wsus__dashboard_message">
+                                    <div class="row">
+                                        <div class="col-xl-4">
+                                            <div class="wsus__dashboard_message_list">
+                                                <h2>Expert List</h2>
+                                                <div class="d-flex align-items-start">
+                                                    <div class="nav flex-column nav-pills" id="v-pills-tab"
+                                                        role="tablist" aria-orientation="vertical">
+                                                        <button class="nav-link active" id="v-pills-home-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                                                            type="button" role="tab" aria-controls="v-pills-home"
+                                                            aria-selected="true">
+                                                            <span>
+                                                                <img src="images/testi_img_3.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>Phillip Talbert</h4>
+                                                        </button>
+                                                        <button class="nav-link" id="v-pills-profile-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                                                            type="button" role="tab" aria-controls="v-pills-profile"
+                                                            aria-selected="false">
+                                                            <span>
+                                                                <img src="images/testi_img_2.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>David Simmons</h4>
+                                                        </button>
+                                                        <button class="nav-link" id="v-pills-disabled-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-disabled"
+                                                            type="button" role="tab" aria-controls="v-pills-disabled"
+                                                            aria-selected="false">
+                                                            <span>
+                                                                <img src="images/testi_img_1.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>Damian Williams</h4>
+                                                        </button>
+                                                        <button class="nav-link" id="v-pills-messages-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+                                                            type="button" role="tab" aria-controls="v-pills-messages"
+                                                            aria-selected="false">
+                                                            <span>
+                                                                <img src="images/testi_img_3.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>Anther Talbert</h4>
+                                                        </button>
+                                                        <button class="nav-link" id="v-pills-settings-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+                                                            type="button" role="tab" aria-controls="v-pills-settings"
+                                                            aria-selected="false">
+                                                            <span>
+                                                                <img src="images/testi_img_2.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>Adnan Simmons</h4>
+                                                        </button>
+
+                                                        <button class="nav-link" id="v-pills-settings-tab2"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-settings2"
+                                                            type="button" role="tab" aria-controls="v-pills-settings2"
+                                                            aria-selected="false">
+                                                            <span>
+                                                                <img src="images/testi_img_1.jpg" alt="user"
+                                                                    class="img-fluid w-100">
+                                                            </span>
+                                                            <h4>Ahil Williams</h4>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <div class="wsus__dashboard_message_form">
+                                                <div class="tab-content" id="v-pills-tabContent">
+                                                    <div class="tab-pane fade show active" id="v-pills-home"
+                                                        role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                                                        aria-labelledby="v-pills-disabled-tab" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                        aria-labelledby="v-pills-messages-tab" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                        aria-labelledby="v-pills-settings-tab" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                                                        aria-labelledby="v-pills-settings-tab2" tabindex="0">
+
+                                                        <div class="wsus__message_header">
+                                                            <h4>Chat With Phillip Talbert</h4>
+                                                        </div>
+
+                                                        <div class="wsus__dashboard_message_area">
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Hello, How are yor ?</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit.</p>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_left">
+                                                                <span class="chat_img">
+                                                                    <img src="images/dashboard_user.png" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">I'm fine, u?</p>
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur
+                                                                        adipisicing elit. Doloremque dolorum quisquam
+                                                                        eum deleniti.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="wsus__chat_item chat_right">
+                                                                <div class="wsus__chat_details">
+                                                                    <p class="text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit.</p>
+                                                                    <a class="file"
+                                                                        href="#">message-doc-file-11657780210.docx <span
+                                                                            class="del">
+                                                                            <i class="fas fa-trash"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                    <span class="date">10 May, 2022, 02:38 AM</span>
+                                                                </div>
+                                                                <span class="chat_img">
+                                                                    <img src="images/testi_img_3.jpg" alt="user"
+                                                                        class="img-fluid w-100">
+                                                                </span>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="wsus__message_footer">
+                                                            <form>
+                                                                <label for="upload_file">
+                                                                    <i class="far fa-folder-open"></i>
+                                                                </label>
+                                                                <input type="file" id="upload_file" hidden>
+                                                                <input type="text" placeholder="Type Message">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-paper-plane"></i>
+                                                                </button>
+                                                            </form>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

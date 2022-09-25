@@ -3272,10 +3272,23 @@ footer {
     color: var(--colorBlack);
 }
 
-.wsus__provide_item_top h5 p {
-    margin-top: 5px;
+.wsus__provide_item_top h5 span {
+    color: var(--colorBlack);
     font-size: 14px;
     font-weight: 400;
+    width: auto;
+    height: auto;
+    background: none;
+    line-height: initial;
+    margin: 0;
+    margin-top: 5px;
+    position: static;
+    border-radius: 0;
+    text-align: left;
+}
+
+.wsus__provide_item_top h5 span::after {
+    display: none;
 }
 
 .wsus__service_det_quot {
@@ -4686,9 +4699,9 @@ footer {
 
 .wsus__dashboard_body table a:hover {
     background: var(--colorBlack);
+    color: var(--colorWhite);
+    border-color: transparent;
 }
-
-.wsus__appointment_modal {}
 
 .wsus__appointment_modal .btn-close {
     width: 25px;
@@ -4711,23 +4724,15 @@ footer {
     color: var(--colorWhite);
 }
 
-.wsus__appointment_modal .modal {}
-
 .wsus__appointment_modal .modal-dialog {
     max-width: 850px;
 }
 
 .wsus__appointment_modal .modal-content {
     border: none;
-    /* background-position: center !important; */
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
-
-.wsus__appointment_modal .modal-body {}
-
-
-
 
 .wsus__appointment_modal_top {
     display: flex;
@@ -4761,12 +4766,6 @@ footer {
     margin-top: 5px;
 }
 
-
-
-.wsus__appointment_modal_body {}
-
-.wsus__appointment_modal_body .adress {}
-
 .wsus__appointment_modal_body .adress li {
     font-weight: 400;
     font-size: 16px;
@@ -4790,9 +4789,6 @@ footer {
     top: 0;
     font-size: 12px;
 }
-
-
-
 
 .wsus__appointment_modal_body .client_bar {
     justify-content: space-between;
@@ -4886,7 +4882,6 @@ footer {
     overflow: hidden;
 }
 
-
 .wsus__transection_history tr .transection_id {
     width: 250px;
 }
@@ -4895,14 +4890,524 @@ footer {
     width: 170px;
 }
 
+.wsus__dashboard_profile_top {
+    background: #EFEDED;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wsus__dashboard_profile_top span {
+    width: 90px;
+    height: 90px;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid var(--colorWhite);
+    margin-bottom: 17px;
+}
+
+.wsus__dashboard_profile_top label {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.wsus__dashboard_profile form label {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--colorBlack);
+    margin-bottom: 5px;
+}
+
+.wsus__dashboard_profile form input {
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--colorPrimary);
+    border-radius: 5px;
+    color: var(--colorPrimary);
+    margin-bottom: 20px;
+}
+
+.wsus__dashboard_profile form input::placeholder {
+    color: var(--colorPrimary);
+}
+
+.wsus__dashboard_profile form input[type=date] {
+    text-transform: uppercase;
+}
+
+.wsus__dashboard_profile form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: var(--colorPrimary);
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.wsus__dashboard_profile form .select2-container--default .select2-selection--single {
+    border-radius: 5px;
+    border: 1px solid var(--colorPrimary);
+    height: 50px;
+}
+
+.wsus__dashboard_profile form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #C8242F transparent transparent transparent;
+    margin-left: -20px;
+    margin-top: 9px;
+}
+
+.wsus__dashboard_profile form .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #C8242F transparent;
+}
+
+.wsus__dashboard_review .comment {
+    width: 400px;
+}
+
+.wsus__dashboard_review .status {
+    width: 175px;
+}
+
+.wsus__meeting_history tr .transection_id {
+    width: 330px;
+}
+
+.wsus__upcoming_meeting .time,
+.wsus__upcoming_meeting .meeting_id {
+    width: 22%;
+}
+
+.wsus__upcoming_meeting .duration {
+    width: 15%;
+}
+
+.wsus__upcoming_meeting .action {
+    width: 18% !important;
+}
+
+.wsus__upcoming_meeting .action a {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 5px 20px;
+    line-height: initial;
+    text-transform: capitalize;
+    border: 1px solid var(--colorPrimary);
+    color: var(--colorPrimary);
+    background: none;
+    margin: 4px 0px;
+}
+
+.wsus__upcoming_meeting .action .confirm {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
 
 
 
 
 
 
+.wsus__dashboard_message {}
 
 
+.wsus__dashboard_message_list {
+    background: #EFEDED;
+    border-radius: 10px;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.wsus__dashboard_message_list::-webkit-scrollbar {
+    scrollbar-width: thin !important;
+    background: var(--colorBlack);
+    height: 4px;
+    width: 4px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.wsus__dashboard_message_list::-webkit-scrollbar-thumb {
+    background: #C8242F;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.wsus__dashboard_message_list h2 {
+    font-size: 18px;
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.wsus__dashboard_message_list .nav {
+    width: 100%;
+}
+
+.wsus__dashboard_message_list .nav .nav-link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_message_list .nav .nav-link span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__dashboard_message_list .nav .nav-link span img {
+    border: 1px solid var(--colorBlack);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__dashboard_message_list .nav .nav-link span::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: var(--colorPrimary);
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+.wsus__dashboard_message_list .nav .nav-link h4 {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--colorPrimary);
+    text-align: left;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_message_list .nav .nav-link.active {
+    background: var(--colorPrimary);
+}
+
+.wsus__dashboard_message_list .nav .nav-link.active h4 {
+    color: var(--colorWhite);
+}
+
+.wsus__dashboard_message_list .nav .nav-link.active span::after {
+    background: var(--colorWhite);
+}
+
+
+
+
+
+.wsus__dashboard_message_form {
+    background: #EFEDED;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.wsus__message_header {
+    position: relative;
+}
+
+.wsus__message_header h4 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--colorBlack);
+    padding: 30px 0px 15px 0px;
+}
+
+.wsus__message_header::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 12px;
+    background: var(--colorBlack);
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.wsus__dashboard_message_area {
+    height: 478px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.wsus__dashboard_message_area::-webkit-scrollbar {
+    scrollbar-width: thin !important;
+    background: var(--colorBlack);
+    height: 4px;
+    width: 4px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.wsus__dashboard_message_area::-webkit-scrollbar-thumb {
+    background: #C8242F;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.wsus__chat_item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: start;
+}
+
+.wsus__chat_item .chat_img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__chat_item .chat_img img {
+    border: 2px solid var(--colorBlack);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__chat_item .chat_img::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: var(--colorWhite);
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__chat_item .wsus__chat_details {
+    max-width: 75%;
+}
+
+.wsus__chat_item .wsus__chat_details .text {
+    font-weight: 400;
+    font-size: 14px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    padding: 8px 15px 10px 15px;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.wsus__chat_item .wsus__chat_details .date {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgba(0, 25, 38, 0.67);
+    text-align: left;
+    display: block;
+}
+
+.wsus__chat_item .wsus__chat_details .file {
+    font-size: 16px;
+    color: var(--colorPrimary);
+    width: 100%;
+    position: relative;
+    padding-right: 30px;
+    text-align: left;
+    margin: 5px 0px;
+}
+
+.wsus__chat_item .wsus__chat_details .file span {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border: 1px solid var(--colorPrimary);
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: var(--colorPrimary);
+    border-radius: 3px;
+    transition: all linear .3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wsus__chat_item .wsus__chat_details .file span:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__chat_item.chat_right {
+    justify-content: end;
+}
+
+.chat_right .wsus__chat_details {
+    text-align: right;
+}
+
+.wsus__chat_item.chat_right .text,
+.wsus__chat_item.chat_right .date {
+    text-align: right;
+}
+
+.wsus__chat_item.chat_right .chat_img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__chat_item.chat_right .file {
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+.wsus__chat_item.chat_right .file span {
+    right: auto;
+    left: 0;
+}
+
+
+
+
+
+.wsus__message_footer {
+    position: relative;
+    background: var(--colorBlack);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* .wsus__message_footer input[type="file"] {} */
+
+.wsus__message_footer label {
+    width: 50px;
+    height: 55px;
+    line-height: 55px;
+    background: var(--colorPrimary);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: var(--colorWhite);
+    font-size: 20px;
+}
+
+.wsus__message_footer input {
+    background: none;
+    color: var(--colorWhite);
+    height: 55px;
+    padding: 0px 60px;
+    border: none;
+}
+
+.wsus__message_footer input::placeholder {
+    color: var(--colorWhite);
+}
+
+.wsus__message_footer button {
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border: 5px solid var(--colorWhite);
+    position: absolute;
+    font-size: 13px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
 
 /*===================================
     DASHBOARD END 
