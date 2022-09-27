@@ -263,7 +263,6 @@ button {
 ===================================*/
 
 
-
 /*===================================
     TOPBAR START 
 ===================================*/
@@ -745,7 +744,7 @@ button {
 }
 
 .wsus__shoose_item h2 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     margin: 20px 0px 10px 0px;
     transition: all linear .3s;
@@ -758,8 +757,6 @@ button {
 .wsus__shoose_item p {
     margin-bottom: 20px;
 }
-
-
 
 .wsus__shoose_item:hover h2 {
     color: var(--colorPrimary);
@@ -1219,7 +1216,6 @@ button {
 /*===================================
     EXPERT END 
 ===================================*/
-
 
 
 /*===================================
@@ -1886,7 +1882,6 @@ footer {
     FOOTER END 
 ===================================*/
 
-
 /*===================================
     BREADCRUMB START 
 ===================================*/
@@ -1942,7 +1937,6 @@ footer {
 /*===================================
     BREADCRUMB END 
 ===================================*/
-
 
 
 /*===================================
@@ -2136,28 +2130,9 @@ footer {
     margin-top: 15px;
 }
 
-
-
-
-
 .wsus__mission {
     position: relative;
 }
-
-/* .wsus__mission .area_bg {
-    position: relative;
-} */
-
-/* .wsus__mission .area_bg::after {
-    position: absolute;
-    content: "";
-    width: 2000px;
-    height: 220px;
-    background: var(--colorPrimary);
-    bottom: 0;
-    right: 40%;
-    z-index: -1;
-} */
 
 .wsus__mission_img_area p {
     font-weight: 300;
@@ -2358,8 +2333,6 @@ footer {
 ===================================*/
 
 
-
-
 /*===================================
     EXPERT PAGE START 
 ===================================*/
@@ -2378,7 +2351,6 @@ footer {
 /*===================================
     EXPERT PAGE END 
 ===================================*/
-
 
 
 /*===================================
@@ -2415,7 +2387,6 @@ footer {
 /*===================================
     PAGINATION END 
 ===================================*/
-
 
 
 /*===================================
@@ -2607,12 +2578,6 @@ footer {
 .wsus__expert_det_sitebar .nav-link.active:after {
     color: var(--colorWhite);
 }
-
-/* .wsus__expert_det_body_text {
-    background: #EFEDED;
-    padding: 20px;
-    border-radius: 10px;
-} */
 
 .wsus__expert_det_body_text h3 {
     font-size: 20px;
@@ -3186,9 +3151,6 @@ footer {
     color: var(--colorWhite);
 }
 
-
-
-
 .wsus__service_det_text {
     margin-top: 20px;
 }
@@ -3596,7 +3558,6 @@ footer {
 ===================================*/
 
 
-
 /*===================================
     BLOG DETAILS START 
 ===================================*/
@@ -3698,12 +3659,6 @@ footer {
     margin-left: 10px;
 }
 
-
-
-
-
-
-
 .wsus__blog_details_text h4 {
     font-size: 20px;
     font-weight: 500;
@@ -3778,9 +3733,6 @@ footer {
     -o-border-radius: 50%;
 }
 
-
-
-
 .wsus__comment_area,
 .wsus__comment_input_area {
     padding: 20px;
@@ -3841,10 +3793,6 @@ footer {
     font-weight: 400;
     margin-top: 15px;
 }
-
-
-
-.wsus__comment_input_area {}
 
 .wsus__comment_input_area h3 {
     margin-bottom: 10px;
@@ -4043,8 +3991,6 @@ footer {
 /*===================================
     CONTACT US START 
 ===================================*/
-.wsus__contact_page {}
-
 .wsus__contact_address {
     background: #EFEDED;
     border-radius: 10px;
@@ -4124,13 +4070,9 @@ footer {
 ===================================*/
 
 
-
-
 /*===================================
     LOGIN START 
 ===================================*/
-.wsus__login_page {}
-
 .wsus__login_area {
     padding: 50px;
     background: #EFEDED;
@@ -4256,7 +4198,6 @@ footer {
     -o-border-radius: 10px;
 }
 
-
 .wsus__login_form .or {
     font-weight: 600;
     font-size: 20px;
@@ -4356,10 +4297,6 @@ footer {
 /*===================================
     TERMS & CONDITION START 
 ===================================*/
-.wsus__terms_condition_page {}
-
-.wsus__terms__condition_text {}
-
 .wsus__terms__condition_text h2 {
     font-size: 32px;
     font-weight: 600;
@@ -4372,8 +4309,6 @@ footer {
     font-size: 16px;
     margin-top: 20px;
 }
-
-.wsus__terms__condition_text ul {}
 
 .wsus__terms__condition_text ul li {
     font-size: 16px;
@@ -4406,10 +4341,6 @@ footer {
 /*===================================
     DASHBOARD START 
 ===================================*/
-.wsus__dashboard {}
-
-.wsus__dashboard_sidebar {}
-
 .wsus__dashboard_user__area {
     background: #EFEDED;
     border-radius: 10px;
@@ -4475,8 +4406,6 @@ footer {
     font-family: var(--headingFont);
 }
 
-.wsus__dashboard_sidebar .nav {}
-
 .wsus__dashboard_sidebar .nav .nav-item {
     width: 100%;
 }
@@ -4535,14 +4464,6 @@ footer {
 .wsus__dashboard_sidebar .nav .nav-link.active::after {
     color: var(--colorWhite);
 }
-
-
-
-
-
-
-
-.wsus__dashboard_body {}
 
 .wsus__dashboard_body h3 {
     font-weight: 600;
@@ -4622,10 +4543,6 @@ footer {
     color: var(--colorWhite);
 }
 
-
-
-.wsus__ashboard_appointment {}
-
 .wsus__dashboard_body table {
     margin: 0;
 }
@@ -4682,6 +4599,10 @@ footer {
 .wsus__dashboard_body table .action,
 .wsus__transection_history tr .fee {
     width: 10%;
+}
+
+.wsus__ashboard_appointment table .action {
+    border-right: 0;
 }
 
 .wsus__dashboard_body table p {
@@ -4910,6 +4831,7 @@ footer {
 
 .wsus__transection_history tr .payment {
     width: 170px;
+    border-right: 0;
 }
 
 .wsus__dashboard_profile_top {
@@ -4993,6 +4915,7 @@ footer {
 
 .wsus__dashboard_review .status {
     width: 175px;
+    border-right: 0;
 }
 
 .wsus__meeting_history tr .transection_id {
@@ -5029,14 +4952,6 @@ footer {
     background: var(--colorPrimary);
     color: var(--colorWhite);
 }
-
-
-
-
-
-
-.wsus__dashboard_message {}
-
 
 .wsus__dashboard_message_list {
     background: #EFEDED;
@@ -5095,7 +5010,7 @@ footer {
     -o-transition: all linear .3s;
 }
 
-.wsus__dashboard_message_list .nav .nav-link span {
+.wsus__dashboard_message_list .nav .nav-link .img {
     display: block;
     width: 50px;
     height: 50px;
@@ -5109,7 +5024,7 @@ footer {
     z-index: 1;
 }
 
-.wsus__dashboard_message_list .nav .nav-link span b {
+.wsus__dashboard_message_list .nav .nav-link .img b {
     position: absolute;
     top: -5px;
     right: -10px;
@@ -5124,7 +5039,7 @@ footer {
     font-weight: 600;
 }
 
-.wsus__dashboard_message_list .nav .nav-link span img {
+.wsus__dashboard_message_list .nav .nav-link .img img {
     border: 1px solid var(--colorBlack);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -5133,7 +5048,7 @@ footer {
     -o-border-radius: 50%;
 }
 
-.wsus__dashboard_message_list .nav .nav-link span::after {
+.wsus__dashboard_message_list .nav .nav-link .img::after {
     position: absolute;
     content: "";
     width: 60px;
@@ -5154,11 +5069,11 @@ footer {
     -o-transition: all linear .3s;
 }
 
-
-.wsus__dashboard_message_list .nav .nav-link h4 {
+.wsus__dashboard_message_list .nav .nav-link .name {
     font-weight: 600;
     font-size: 15px;
     color: var(--colorPrimary);
+    font-family: var(--headingFont);
     text-align: left;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -5167,12 +5082,11 @@ footer {
     -o-transition: all linear .3s;
 }
 
-
 .wsus__dashboard_message_list .nav .nav-link.active {
     background: var(--colorPrimary);
 }
 
-.wsus__dashboard_message_list .nav .nav-link.active h4 {
+.wsus__dashboard_message_list .nav .nav-link.active .name {
     color: var(--colorWhite);
 }
 
@@ -5180,17 +5094,11 @@ footer {
     background: var(--colorWhite);
 }
 
-
-
-
-
 .wsus__dashboard_message_form {
     background: #EFEDED;
     border-radius: 10px;
     position: relative;
 }
-
-
 
 .wsus__message_header {
     position: relative;
@@ -5383,10 +5291,6 @@ footer {
     left: 0;
 }
 
-
-
-
-
 .wsus__message_footer {
     position: relative;
     background: var(--colorBlack);
@@ -5397,8 +5301,6 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-/* .wsus__message_footer input[type="file"] {} */
 
 .wsus__message_footer label {
     width: 50px;
