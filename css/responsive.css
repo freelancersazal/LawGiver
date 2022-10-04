@@ -1,0 +1,1798 @@
+@media (min-width: 1400px) {}
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .wsus__subscribe_text h3 {
+        font-size: 28px;
+    }
+
+    .wsus__sidebar_blog ul li img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .wsus__single_comment_text {
+        width: 85%;
+    }
+
+    /* contact start */
+    .wsus__contact_address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 28px 10px;
+    }
+
+    .wsus__contact_address span {
+        position: static;
+        margin-bottom: 20px;
+        transform: translate(0%);
+        -webkit-transform: translate(0%);
+        -moz-transform: translate(0%);
+        -ms-transform: translate(0%);
+        -o-transform: translate(0%);
+    }
+
+    .wsus__contact_address a,
+    .wsus__contact_address p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .wsus__contact_form h4 {
+        font-size: 22px;
+    }
+
+    .wsus__contact_form form {
+        padding: 15px;
+    }
+
+    /* contact end */
+
+    .wsus__expert_top form li {
+        width: 227px;
+    }
+
+    .wsus__expert_det_top_img {
+        height: 420px;
+    }
+
+    .wsus__expert_det_top_text {
+        margin-top: 0;
+    }
+
+    .wsus__schedule table tr .schedule span {
+        width: 49%;
+    }
+
+    .wsus__single_gallery,
+    .wsus__single_video {
+        height: 220px;
+    }
+
+    .wsus__single_review_text {
+        width: 86%;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* home pag start */
+    .main_menu .navbar-nav .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+
+    .wsus__shoose_item h2 {
+        font-size: 18px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 60px;
+    }
+
+    .wsus__banner_search li {
+        width: 194px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 28px;
+    }
+
+    .wsus__subscribe_text {
+        padding-right: 40px;
+    }
+
+    .wsus__footer_content h3 {
+        font-size: 16px;
+    }
+
+    .wsus__subscribe_form button {
+        padding: 15px 20px;
+    }
+
+    /* home pag end */
+
+
+    /* about start */
+    .wsus__breadcrumb_text h1 {
+        font-size: 40px;
+    }
+
+    .wsus__about_us_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__about_us_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__about_us_text .about_list li {
+        width: 100%;
+    }
+
+    .wsus__about_us_text_bottom h4 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_text_area {
+        margin-top: 25px;
+    }
+
+    .wsus__mission_text_area h3 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_quot_text h4 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__vission_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h6 {
+        font-size: 20px;
+    }
+
+    .wsus__about_us_img img {
+        width: 300px !important;
+        height: 340px !important;
+    }
+
+    /* about end */
+
+    /* blog details start */
+    .wsus__blog_details_text {
+        padding: 0;
+    }
+
+    .wsus__blog_det_center_img .img {
+        height: 350px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_comment_text {
+        width: 83%;
+    }
+
+    .wsus__comment_area,
+    .wsus__comment_input_area {
+        margin: 0;
+    }
+
+    .wsus__blog_sidebar h3 {
+        font-size: 20px;
+    }
+
+    .wsus__sidebar_blog ul li a {
+        width: 65%;
+        font-size: 14px;
+    }
+
+    .wsus__blog_details_header h3 {
+        font-size: 30px;
+    }
+
+    .wsus__blog_det_quot_text {
+        padding: 30px;
+    }
+
+    .wsus__sidebar_blog ul li img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    /* blog details end */
+
+    .wsus__contact_address a,
+    .wsus__contact_address p {
+        font-size: 18px;
+    }
+
+    .wsus__contact_address {
+        padding: 55px 30px 55px 100px;
+    }
+
+    .wsus__single_services_img {
+        height: 190px;
+        margin: 0px 30px -100px 30px;
+    }
+
+    .wsus__single_services_img a {
+        font-size: 16px;
+    }
+
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+
+    .wsus__single_blog_text h4 {
+        font-size: 18px;
+    }
+
+    /* expert start */
+    .wsus__expert_top form li {
+        width: 190px;
+    }
+
+    .wsus__single_expert_img {
+        height: 200px;
+    }
+
+    .wsus__single_expert_text .designation {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text a {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text .location {
+        font-size: 18px;
+    }
+
+    /* expert end */
+
+    /* expert setXails starrt */
+    .wsus__expert_det_top_img {
+        height: 415px;
+    }
+
+    .wsus__expert_det_top_img span {
+        font-size: 25px;
+    }
+
+    .wsus__expert_det_top_text {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .wsus__expert_det_top_text h2 {
+        font-size: 22px;
+    }
+
+    .wsus__expert_det_top_text .designation {
+        font-size: 16px;
+    }
+
+    .wsus__expert_det_sitebar h2 {
+        font-size: 20px;
+    }
+
+    .wsus__schedule table tr .schedule span {
+        width: 49%;
+    }
+
+    .wsus__single_review_text {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* expert setXails end */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* home page start */
+    .wsus__topbar {
+        position: static;
+        height: auto;
+    }
+
+    .wsus__topbar_left {
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .wsus__topbar_left li a::after {
+        display: none;
+    }
+
+    .wsus__topbar_right {
+        justify-content: center;
+    }
+
+    .wsus__topbar_right li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__topbar_right li.user {
+        padding-left: 10px;
+    }
+
+    .wsus__topbar_right li.user::after {
+        left: 0px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 90px;
+    }
+
+    button.navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 13px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    button.navbar-toggler:hover {
+        background: var(--colorBlack);
+    }
+
+    .main_menu {
+        top: 80px;
+        height: 65px;
+        transition: all linear .1s;
+        -webkit-transition: all linear .1s;
+        -moz-transition: all linear .1s;
+        -ms-transition: all linear .1s;
+        -o-transition: all linear .1s;
+    }
+
+    .main_menu .container {
+        padding: 5px 0px 13px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 11px;
+        padding-bottom: 15px;
+    }
+
+    .main_menu .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::before {
+        height: 2px;
+        bottom: 5px;
+    }
+
+    .main_menu .navbar-nav .nav-item:last-child .nav-link {
+        margin-top: 15px;
+    }
+
+    .wsus__banner_text form {
+        width: 100%;
+    }
+
+    .wsus__banner .slick-dots {
+        flex-direction: row;
+        position: absolute;
+        width: 100%;
+        top: auto;
+        right: auto;
+        padding-top: 0;
+        z-index: 5;
+        justify-content: center;
+        bottom: 75px;
+    }
+
+    .wsus__banner .slick-dots li button {
+        margin: 0px 3px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        padding-top: 127px;
+    }
+
+    .wsus__banner_search li {
+        width: 174px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 60px;
+    }
+
+    .wsus__banner_search li:last-child {
+        padding-right: 20px;
+    }
+
+    .wsus__single_services_img {
+        height: 210px;
+        margin: 0px 30px -110px 30px;
+    }
+
+    .wsus__single_expert_img {
+        height: 220px;
+    }
+
+    .wsus__counter_overlay {
+        padding-bottom: 50px !important;
+    }
+
+    .wsus__single_counter_area p {
+        margin-bottom: 40px;
+    }
+
+    .wsus__blog .slick-dots {
+        margin-top: 40px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__subscribe_text p {
+        margin-bottom: 25px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .wsus__copyright_text ul li a {
+        margin: 0px 5px;
+    }
+
+    .wsus__footer_bg {
+        padding-top: 200px !important;
+    }
+
+    .wsus__copyright {
+        margin-top: 70px !important;
+    }
+
+    .main_menu .navbar-nav .dropdown-menu {
+        top: 50px;
+        left: 50%;
+        max-height: 260px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .wsus__single_blog_img {
+        height: 210px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 20px;
+    }
+
+    .wsus__shoose_item .icon {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 35px;
+    }
+
+    .wsus__shoose_item h2 {
+        font-size: 20px;
+    }
+
+    .wsus__shoose_item {
+        padding: 80px 20px 20px 20px;
+    }
+
+    /* home page end */
+
+    /* about start */
+    .wsus__breadcrumb_text h1 {
+        font-size: 35px;
+    }
+
+    .wsus__breadcrumb_text ul li,
+    .wsus__breadcrumb_text ul li a {
+        font-size: 16px;
+    }
+
+    .wsus__breadcrumb_text ul li a::after {
+        top: 4px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 150px 0px 85px 0px;
+    }
+
+    .wsus__about_us_img .text {
+        bottom: 50px;
+    }
+
+    .wsus__mission_text_area {
+        margin-top: 25px;
+    }
+
+    .wsus__vission_img {
+        height: 330px;
+        margin-top: 25px;
+    }
+
+    .wsus__vission_bg::after {
+        right: auto;
+        left: 0;
+    }
+
+    /* about end */
+
+    /* blog details start */
+    .wsus__blog_details_header h3 {
+        font-size: 30px;
+    }
+
+    .wsus__blog_details_text {
+        padding: 0;
+    }
+
+    .wsus__blog_det_center_img .img {
+        height: 350px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_comment_text {
+        width: 83%;
+    }
+
+    .wsus__comment_area,
+    .wsus__comment_input_area {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .wsus__sidebar_blog ul li a {
+        width: 82%;
+    }
+
+    /* blog details end */
+
+    /* contact start */
+    .wsus__contact_address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 10px;
+    }
+
+    .wsus__contact_address span {
+        position: static;
+        margin-bottom: 20px;
+        transform: translate(0%);
+        -webkit-transform: translate(0%);
+        -moz-transform: translate(0%);
+        -ms-transform: translate(0%);
+        -o-transform: translate(0%);
+    }
+
+    .wsus__contact_address a,
+    .wsus__contact_address p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .wsus__contact_form h4 {
+        font-size: 22px;
+    }
+
+    .wsus__contact_form form {
+        padding: 15px;
+    }
+
+    .wsus__contact_form p {
+        font-size: 16px;
+    }
+
+    /* contact end */
+
+    /* expert start */
+    .wsus__expert_top {
+        padding: 20px;
+        margin-top: -25px;
+    }
+
+    .wsus__expert_top form {
+        padding-right: 0;
+    }
+
+    .wsus__expert_top form li {
+        width: 164px;
+    }
+
+    .wsus__single_expert_text .designation {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text a {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text .location {
+        font-size: 18px;
+    }
+
+    /* expert end */
+
+    /* expert setXails starrt */
+    .wsus__expert_det_top_img {
+        height: 330px;
+    }
+
+    .wsus__expert_det_top_img span {
+        font-size: 25px;
+    }
+
+    .wsus__expert_det_top_text {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .wsus__expert_det_top_text h2 {
+        font-size: 22px;
+    }
+
+    .wsus__expert_det_top_text .designation {
+        font-size: 16px;
+    }
+
+    .wsus__expert_det_sitebar h2 {
+        font-size: 20px;
+    }
+
+    .wsus__schedule table tr .day {
+        min-width: 150px;
+    }
+
+    .wsus__schedule table tr .schedule {
+        min-width: 230px;
+    }
+
+    .wsus__schedule table tr .schedule span {
+        width: 100%;
+    }
+
+    .wsus__single_experience_text {
+        padding: 30px;
+    }
+
+    .wsus__single_gallery,
+    .wsus__single_video {
+        height: 170px;
+    }
+
+    .wsus__single_review_text {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* expert setXails end */
+
+    .wsus__terms__condition_text h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* home page start */
+    .wsus__topbar {
+        position: static;
+        height: auto;
+    }
+
+    .wsus__topbar_left {
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .wsus__topbar_left li a::after {
+        display: none;
+    }
+
+    .wsus__topbar_right {
+        justify-content: center;
+    }
+
+    .wsus__topbar_right li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__topbar_right li.user {
+        padding-left: 10px;
+    }
+
+    .wsus__topbar_right li.user::after {
+        left: 0px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 90px;
+    }
+
+    button.navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    button.navbar-toggler:hover {
+        background: var(--colorBlack);
+    }
+
+    .main_menu {
+        top: 110px;
+        height: 65px;
+        transition: all linear .1s;
+        -webkit-transition: all linear .1s;
+        -moz-transition: all linear .1s;
+        -ms-transition: all linear .1s;
+        -o-transition: all linear .1s;
+    }
+
+    .main_menu .container {
+        padding: 5px 0px 13px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 11px;
+        padding-bottom: 15px;
+    }
+
+    .main_menu .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::before {
+        height: 2px;
+        bottom: 5px;
+    }
+
+    .main_menu .navbar-nav .nav-item:last-child .nav-link {
+        margin-top: 15px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 50px;
+    }
+
+    .wsus__banner .slick-dots {
+        flex-direction: row;
+        position: absolute;
+        width: 100%;
+        top: auto;
+        right: auto;
+        padding-top: 0;
+        z-index: 5;
+        justify-content: center;
+        bottom: 75px;
+    }
+
+    .wsus__banner .slick-dots li button {
+        margin: 0px 3px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        padding-top: 127px;
+    }
+
+    .wsus__banner_slider {
+        height: 700px;
+    }
+
+    .wsus__banner_search li::after {
+        display: none;
+    }
+
+    .wsus__banner_search li {
+        width: 100%;
+        border-bottom: 1px solid var(--colorWhite);
+    }
+
+    .wsus__banner_search li:last-child {
+        border: none;
+    }
+
+    .wsus__banner_search li:last-child {
+        padding-right: 20px;
+    }
+
+    .wsus__single_services_img {
+        height: 255px;
+    }
+
+    .wsus__single_blog_img {
+        height: 300px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 22px;
+    }
+
+    .wsus__section_heading h2::after,
+    .wsus__section_heading h2::before {
+        width: 40px;
+        height: 35px;
+    }
+
+    .wsus__section_heading h2::after,
+    .wsus__section_heading h2::before {
+        right: -60px;
+    }
+
+    .wsus__section_heading h2::before {
+        left: -60px;
+    }
+
+    .wsus__single_counter_area p {
+        margin-bottom: 40px;
+    }
+
+    .wsus__blog .slick-dots {
+        margin-top: 40px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__subscribe_text p {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        margin-top: -10px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .wsus__copyright_text {
+        justify-content: center;
+    }
+
+    .wsus__copyright_text p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .wsus__copyright_text ul li a {
+        margin: 0px 5px;
+    }
+
+    .wsus__topbar_left li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .dropdown-menu {
+        top: 50px;
+        left: 50%;
+        max-height: 260px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .wsus__banner_text form {
+        width: 100%;
+    }
+
+    /* home page end */
+
+    /* about start */
+    .wsus__breadcrumb_text h1 {
+        font-size: 35px;
+    }
+
+    .wsus__breadcrumb_text ul li,
+    .wsus__breadcrumb_text ul li a {
+        font-size: 16px;
+    }
+
+    .wsus__breadcrumb_text ul li a::after {
+        top: 4px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 150px 0px 85px 0px;
+    }
+
+    .wsus__about_us_img .text {
+        bottom: 50px;
+    }
+
+    .wsus__about_us_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__about_us_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__about_us_text .about_list li {
+        width: 100%;
+    }
+
+    .wsus__about_us_text_bottom h4 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_text_area {
+        margin-top: 25px;
+    }
+
+    .wsus__mission_text_area h3 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_quot_text h4 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__vission_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h6 {
+        font-size: 20px;
+    }
+
+    .wsus__vission_img {
+        height: 330px;
+        margin-top: 25px;
+    }
+
+    .wsus__vission_bg::after {
+        right: auto;
+        left: 0;
+    }
+
+    /* about end */
+
+    /* blog details start */
+    .wsus__blog_details_text {
+        padding: 0;
+    }
+
+    .wsus__blog_details_header h3 {
+        font-size: 25px;
+    }
+
+    .wsus__blog_details_img {
+        height: 350px;
+    }
+
+    .wsus__blog_det_quot_text {
+        padding: 25px;
+    }
+
+    .wsus__blog_details_text .list_text li {
+        margin-left: 0;
+    }
+
+    .wsus__blog_det_center_img .img {
+        margin-bottom: 25px;
+    }
+
+    .wsus__comment_area,
+    .wsus__comment_input_area {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_comment_img {
+        margin-bottom: 15px;
+    }
+
+    .wsus__single_comment_text {
+        width: 80%;
+    }
+
+    .wsus__comment_area h3,
+    .wsus__comment_input_area h3 {
+        font-size: 18px;
+    }
+
+    .wsus__blog_sidebar h3 {
+        font-size: 20px;
+    }
+
+    .wsus__sidebar_blog ul li a {
+        width: 75%;
+    }
+
+    /* blog details end */
+
+    /* expert start */
+    .wsus__expert_top {
+        margin-top: 70px;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .wsus__expert_top form {
+        padding-right: 0;
+    }
+
+    /* expert end */
+
+    /* expert setXails starrt */
+    .wsus__expert_det_top_img {
+        height: 400px;
+    }
+
+    .wsus__expert_det_top_img span {
+        font-size: 25px;
+    }
+
+    .wsus__expert_det_top_text {
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .wsus__expert_det_body_text {
+        margin-top: 25px;
+    }
+
+    .wsus__expert_det_top_text h2 {
+        font-size: 22px;
+    }
+
+    .wsus__expert_det_top_text .designation {
+        font-size: 16px;
+    }
+
+    .wsus__expert_det_sitebar h2 {
+        font-size: 20px;
+    }
+
+    .wsus__schedule table tr .day {
+        min-width: 150px;
+    }
+
+    .wsus__schedule table tr .schedule {
+        min-width: 230px;
+    }
+
+    .wsus__schedule table tr .schedule span {
+        width: 100%;
+    }
+
+    .wsus__single_qualification h4 {
+        font-size: 18px;
+    }
+
+    .wsus__single_experience_text h4 {
+        font-size: 18px;
+    }
+
+    .wsus__single_review_text {
+        width: 80%;
+    }
+
+    /* expert setXails end */
+
+    .wsus__login_input input {
+        width: 85%;
+    }
+
+    .wsus__terms__condition_text h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 575.99px) {
+
+    /* home page start */
+    .wsus__topbar {
+        position: static;
+        height: auto;
+    }
+
+    .wsus__topbar_left {
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .wsus__topbar_left li a {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .wsus__topbar_left li a::after {
+        display: none;
+    }
+
+    .wsus__topbar_right {
+        justify-content: center;
+    }
+
+    .wsus__topbar_right li a {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__topbar_right li.user {
+        padding-left: 10px;
+    }
+
+    .wsus__topbar_right li.user::after {
+        left: 0px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 90px;
+    }
+
+    button.navbar-toggler {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    button.navbar-toggler:hover {
+        background: var(--colorBlack);
+    }
+
+    .main_menu {
+        top: 113px;
+        height: 65px;
+        transition: all linear .1s;
+        -webkit-transition: all linear .1s;
+        -moz-transition: all linear .1s;
+        -ms-transition: all linear .1s;
+        -o-transition: all linear .1s;
+    }
+
+    .main_menu .container {
+        padding: 5px 0px 13px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        margin-top: 11px;
+        padding-bottom: 15px;
+    }
+
+    .main_menu .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::before {
+        height: 2px;
+        bottom: 5px;
+    }
+
+    .main_menu .navbar-nav .nav-item:last-child .nav-link {
+        margin-top: 15px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 40px;
+    }
+
+    .wsus__banner_text p {
+        font-size: 18px;
+    }
+
+    .wsus__banner .slick-dots {
+        flex-direction: row;
+        position: absolute;
+        width: 100%;
+        top: auto;
+        right: auto;
+        padding-top: 0;
+        z-index: 5;
+        justify-content: center;
+        bottom: 75px;
+    }
+
+    .wsus__banner .slick-dots li button {
+        margin: 0px 3px;
+    }
+
+    .wsus__banner_text {
+        height: auto;
+        padding-top: 127px;
+    }
+
+    .wsus__banner_slider {
+        height: 650px;
+    }
+
+    .wsus__banner_search li::after {
+        display: none;
+    }
+
+    .wsus__banner_search li {
+        width: 100%;
+        border-bottom: 1px solid var(--colorWhite);
+    }
+
+    .wsus__banner_search li:last-child {
+        border: none;
+    }
+
+    .wsus__banner_search li:last-child {
+        padding-right: 20px;
+    }
+
+    .wsus__shoose_item h2 {
+        font-size: 20px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 22px;
+    }
+
+    .wsus__section_heading h2::after,
+    .wsus__section_heading h2::before {
+        width: 40px;
+        height: 35px;
+    }
+
+    .wsus__section_heading h2::after,
+    .wsus__section_heading h2::before {
+        right: -60px;
+    }
+
+    .wsus__section_heading h2::before {
+        left: -60px;
+    }
+
+    .wsus__single_counter_area p {
+        margin-bottom: 40px;
+    }
+
+    .wsus__blog .slick-dots {
+        margin-top: 40px;
+    }
+
+    .wsus__subscribe_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__subscribe {
+        padding: 20px;
+    }
+
+    .wsus__subscribe_text p {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        margin-top: -10px;
+    }
+
+    .wsus__subscribe_form button {
+        padding: 15px;
+    }
+
+    .wsus__footer_content {
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .wsus__copyright_text {
+        justify-content: center;
+    }
+
+    .wsus__copyright_text p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .wsus__copyright_text ul li a {
+        margin: 0px 5px;
+    }
+
+    .wsus__single_services_img {
+        height: 185px;
+        margin: 0px 30px -95px 30px;
+    }
+
+    .wsus__shoose_item {
+        padding: 80px 20px 20px 20px;
+    }
+
+    .wsus__single_blog_text h4 {
+        font-size: 18px;
+    }
+
+    .wsus__shoose_item .icon {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 35px;
+    }
+
+    .wsus__topbar_left li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .dropdown-menu {
+        top: 50px;
+        left: 50%;
+        max-height: 260px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .wsus__single_expert_img {
+        height: 200px;
+    }
+
+    .wsus__single_blog_img {
+        height: 200px;
+    }
+
+    /* home page end */
+
+    /* about start */
+    .wsus__breadcrumb_text h1 {
+        font-size: 25px;
+    }
+
+    .wsus__breadcrumb_text ul li,
+    .wsus__breadcrumb_text ul li a {
+        font-size: 16px;
+    }
+
+    .wsus__breadcrumb_text ul li a::after {
+        top: 4px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 150px 0px 85px 0px;
+    }
+
+    .wsus__about_us_img {
+        padding-left: 0;
+    }
+
+    .wsus__about_us_img img {
+        width: 280px !important;
+        height: 300px !important;
+    }
+
+    .wsus__about_us_img::after {
+        width: 310px;
+        height: 340px;
+    }
+
+    .wsus__about_us_img .text {
+        bottom: 50px;
+    }
+
+    .wsus__about_us_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__about_us_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__about_us_text .about_list li {
+        width: 100%;
+    }
+
+    .wsus__about_us_text_bottom h4 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_text_area {
+        margin-top: 25px;
+    }
+
+    .wsus__mission_text_area h3 {
+        font-size: 22px;
+    }
+
+    .wsus__mission_quot_text h4 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h5 {
+        font-size: 20px;
+    }
+
+    .wsus__vission_text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__vission_text h6 {
+        font-size: 20px;
+    }
+
+    .wsus__vission_text h6::after {
+        top: 0;
+    }
+
+    .wsus__vission_text h6::before {
+        top: -5px;
+    }
+
+    .wsus__vission_img {
+        height: 330px;
+        margin-top: 25px;
+    }
+
+    .wsus__vission_bg::after {
+        right: auto;
+        left: 0;
+    }
+
+    .wsus__about_us_text_quot ul li img {
+        margin-bottom: 5px;
+    }
+
+    /* about end */
+
+    /* blog details start */
+    .wsus__blog_details_text {
+        padding: 0;
+    }
+
+    .wsus__blog_details_header ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__blog_details_header h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_details_img {
+        height: 300px;
+    }
+
+    .wsus__blog_det_quot_text {
+        padding: 15px;
+    }
+
+    .wsus__blog_details_text .list_text li {
+        margin-left: 0;
+    }
+
+    .wsus__blog_det_center_img .img {
+        margin-bottom: 25px;
+    }
+
+    .wsus__comment_area,
+    .wsus__comment_input_area {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_comment_img {
+        margin-bottom: 15px;
+    }
+
+    .wsus__single_comment_text {
+        width: 100%;
+    }
+
+    .wsus__comment_area h3,
+    .wsus__comment_input_area h3 {
+        font-size: 18px;
+    }
+
+    .wsus__blog_sidebar h3 {
+        font-size: 20px;
+    }
+
+    .wsus__sidebar_blog ul li img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .wsus__sidebar_blog ul li a {
+        font-size: 14px;
+        width: 65%;
+    }
+
+    /* blog details end */
+
+    /* contact start */
+    .wsus__contact_address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+    }
+
+    .wsus__contact_address span {
+        position: static;
+        margin-bottom: 20px;
+        transform: translate(0%);
+        -webkit-transform: translate(0%);
+        -moz-transform: translate(0%);
+        -ms-transform: translate(0%);
+        -o-transform: translate(0%);
+    }
+
+    .wsus__contact_address a,
+    .wsus__contact_address p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .wsus__contact_form h4 {
+        font-size: 22px;
+    }
+
+    .wsus__contact_form form {
+        padding: 15px;
+    }
+
+    /* contact end */
+
+    /* expert start */
+    .wsus__expert_top {
+        margin-top: 70px;
+        padding: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .wsus__expert_top form {
+        padding-right: 0;
+    }
+
+    .wsus__single_expert_text .designation {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text a {
+        font-size: 20px;
+    }
+
+    .wsus__single_expert_text .location {
+        font-size: 18px;
+    }
+
+    /* expert end */
+
+    /* expert setXails starrt */
+    .wsus__expert_det_top_img {
+        height: 300px;
+    }
+
+    .wsus__expert_det_top_img span {
+        font-size: 20px;
+    }
+
+    .wsus__expert_det_top_text {
+        padding: 15px;
+        margin-top: 25px;
+    }
+
+    .wsus__expert_det_top_text h2 {
+        font-size: 22px;
+    }
+
+    .wsus__expert_det_top_text .designation {
+        font-size: 16px;
+    }
+
+    .wsus__expert_det_sitebar h2 {
+        font-size: 20px;
+    }
+
+    .wsus__expert_det_body_text {
+        margin-top: 25px;
+    }
+
+    .wsus__expert_det_body_text h3 {
+        font-size: 18px;
+    }
+
+    .wsus__schedule table tr .day {
+        min-width: 150px;
+    }
+
+    .wsus__schedule table tr .schedule {
+        min-width: 230px;
+    }
+
+    .wsus__schedule table tr .schedule span {
+        width: 100%;
+    }
+
+    .wsus__single_qualification {
+        padding: 30px 15px 20px 15px;
+    }
+
+    .wsus__single_experience_text {
+        padding: 20px;
+    }
+
+    .wsus__single_qualification h4 {
+        font-size: 18px;
+    }
+
+    .wsus__single_experience_text h4 {
+        font-size: 18px;
+    }
+
+    .wsus__single_review_text {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .wsus_submit_review p {
+        font-size: 14px;
+    }
+
+    .wsus_submit_review p span {
+        margin-left: 10px;
+    }
+
+    /* expert setXails end */
+
+    /* faq start */
+    .wsus__faq_page h4 {
+        font-size: 18px;
+    }
+
+    /* faq end */
+
+    /* login start */
+    .wsus__login_area {
+        padding: 15px;
+    }
+
+    .wsus__login_input input {
+        width: 77%;
+    }
+
+    .wsus__login_input a {
+        font-size: 13px;
+    }
+
+    .wsus__login_input .form-check label {
+        font-size: 13px;
+    }
+
+    .wsus__login_form .other_signin {
+        font-size: 16px;
+    }
+
+    /* login end */
+
+    .wsus__terms__condition_text h2 {
+        font-size: 20px;
+    }
+
+
+}
