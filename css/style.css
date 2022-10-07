@@ -3134,12 +3134,27 @@ footer {
 /*===================================
     SERVICES DETAILS START 
 ===================================*/
+.wsus__service_det_area {
+    overflow: hidden;
+    width: 100%;
+}
+
 .wsus__service_det_slider {
-    width: auto;
+    width: 100%;
+    padding: 0px 12px;
     height: 450px;
-    border-radius: 10px;
     overflow: hidden;
     position: relative;
+}
+
+.wsus__service_det_slider .venobox {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.wsus__service_det_slider img {
+    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -3206,7 +3221,7 @@ footer {
 
 .ser_det_slider .prevArrow {
     right: auto;
-    left: 0;
+    left: 30px;
 }
 
 .ser_det_slider .nextArrow:hover,
@@ -4626,8 +4641,8 @@ footer {
     border-radius: 5px;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
 }
 
 .wsus__dashboard_body table th,
@@ -4970,6 +4985,10 @@ footer {
     border-radius: 5px;
     border: 1px solid var(--colorPrimary);
     height: 50px;
+}
+
+.wsus__dashboard_profile form .select2 {
+    margin-bottom: 20px;
 }
 
 .wsus__dashboard_profile form .select2-container--default .select2-selection--single .select2-selection__arrow b {

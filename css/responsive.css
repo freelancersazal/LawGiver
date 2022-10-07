@@ -76,6 +76,18 @@
         width: 86%;
     }
 
+    /* service details start */
+    .wsus__provide_item_top h5 {
+        width: 83%;
+    }
+
+    .wsus__service_det_quot .text {
+        width: 85%;
+    }
+
+
+    /* service details end */
+
 }
 
 
@@ -298,6 +310,83 @@
     }
 
     /* expert setXails end */
+
+
+    /* service details start */
+    .wsus__service_det_slider {
+        height: 350px;
+    }
+
+    .wsus__service_det_center_img {
+        height: 250px;
+    }
+
+    .wsus__provide_item_top h5 {
+        width: 89%;
+    }
+
+    .wsus__service_det_quot .text {
+        width: 83%;
+    }
+
+    .wsus__service_det_text ul li {
+        width: 100%;
+    }
+
+    /* service details end */
+
+    /* dashboard start */
+    .wsus__dashboard_item {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment,
+    .wsus__transection_history,
+    .wsus__dashboard_profile,
+    .wsus__dashboard_message,
+    .wsus__dashboard_message_form {
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment table .sn,
+    .wsus__transection_history tr .sn {
+        min-width: 50px;
+    }
+
+    .wsus__ashboard_appointment table .lawyer,
+    .wsus__ashboard_appointment table .chamber,
+    .wsus__ashboard_appointment table .date,
+    .wsus__ashboard_appointment table .schedule,
+    .wsus__ashboard_appointment table .status,
+    .wsus__transection_history tr .lawyer,
+    .wsus__transection_history tr .date {
+        min-width: 200px;
+    }
+
+    .wsus__dashboard_body table .action,
+    .wsus__transection_history tr .fee {
+        min-width: 100px;
+    }
+
+    .wsus__upcoming_meeting .time,
+    .wsus__upcoming_meeting .meeting_id {
+        min-width: 185px;
+    }
+
+    .wsus__upcoming_meeting .duration {
+        min-width: 120px;
+    }
+
+    .wsus__chat_item {
+        flex-wrap: nowrap;
+    }
+
+    .wsus__chat_item .wsus__chat_details {
+        max-width: 78%;
+    }
+
+    /* dashboard end */
 
 }
 
@@ -721,6 +810,86 @@
     .wsus__terms__condition_text h2 {
         font-size: 25px;
     }
+
+    /* service details start */
+    .wsus__service_det_slider {
+        height: 350px;
+    }
+
+    .wsus__provide_item_top h5 {
+        width: 90%;
+    }
+
+    .wsus__service_det_quot {
+        padding: 20px;
+    }
+
+    .wsus__service_det_quot .text {
+        width: 86%;
+    }
+
+    .wsus__service_det_text ul li {
+        width: 100%;
+    }
+
+    .wsus__service_det_text {
+        margin-bottom: 25px;
+    }
+
+    /* service details end */
+
+    /* dashboard start */
+    .wsus__dashboard_item {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment,
+    .wsus__transection_history,
+    .wsus__dashboard_profile,
+    .wsus__dashboard_message,
+    .wsus__dashboard_message_form {
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment table .sn,
+    .wsus__transection_history tr .sn {
+        min-width: 50px;
+    }
+
+    .wsus__ashboard_appointment table .lawyer,
+    .wsus__ashboard_appointment table .chamber,
+    .wsus__ashboard_appointment table .date,
+    .wsus__ashboard_appointment table .schedule,
+    .wsus__ashboard_appointment table .status,
+    .wsus__transection_history tr .lawyer,
+    .wsus__transection_history tr .date {
+        min-width: 200px;
+    }
+
+    .wsus__dashboard_body table .action,
+    .wsus__transection_history tr .fee {
+        min-width: 100px;
+    }
+
+    .wsus__upcoming_meeting .time,
+    .wsus__upcoming_meeting .meeting_id {
+        min-width: 185px;
+    }
+
+    .wsus__upcoming_meeting .duration {
+        min-width: 120px;
+    }
+
+    .wsus__chat_item {
+        flex-wrap: nowrap;
+    }
+
+    .wsus__chat_item .wsus__chat_details {
+        max-width: 80%;
+    }
+
+    /* dashboard end */
 
 }
 
@@ -1173,6 +1342,109 @@
     .wsus__terms__condition_text h2 {
         font-size: 25px;
     }
+
+    /* service details start */
+    .wsus__service_det_slider {
+        height: 300px;
+    }
+
+    .wsus__service_det_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__provide_item_top h5 {
+        width: 87%;
+    }
+
+    .wsus__service_det_quot {
+        padding: 20px;
+    }
+
+    .wsus__service_det_quot .images {
+        margin-bottom: 15px;
+    }
+
+    .wsus__service_det_text ul li {
+        width: 100%;
+    }
+
+    .wsus__service_det_text {
+        margin-bottom: 25px;
+    }
+
+    .wsus__sidebar_contact h4,
+    .wsus__sidebar_message h4,
+    .wsus__sidebar_faq h4 {
+        font-size: 18px;
+    }
+
+    .wsus__sidebar_contact p {
+        font-size: 16px;
+    }
+
+    .wsus__sidebar_contact a {
+        font-size: 16px;
+    }
+
+    .wsus__details_video h4 {
+        font-size: 20px;
+    }
+
+    /* service details end */
+
+    /* dashboard start */
+    .wsus__dashboard_item {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment,
+    .wsus__transection_history,
+    .wsus__dashboard_profile,
+    .wsus__dashboard_message,
+    .wsus__dashboard_message_form {
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment table .sn,
+    .wsus__transection_history tr .sn {
+        min-width: 50px;
+    }
+
+    .wsus__ashboard_appointment table .lawyer,
+    .wsus__ashboard_appointment table .chamber,
+    .wsus__ashboard_appointment table .date,
+    .wsus__ashboard_appointment table .schedule,
+    .wsus__ashboard_appointment table .status,
+    .wsus__transection_history tr .lawyer,
+    .wsus__transection_history tr .date {
+        min-width: 200px;
+    }
+
+    .wsus__dashboard_body table .action,
+    .wsus__transection_history tr .fee {
+        min-width: 100px;
+    }
+
+    .wsus__upcoming_meeting .time,
+    .wsus__upcoming_meeting .meeting_id {
+        min-width: 185px;
+    }
+
+    .wsus__upcoming_meeting .duration {
+        min-width: 120px;
+    }
+
+    .wsus__chat_item {
+        flex-wrap: nowrap;
+    }
+
+    .wsus__chat_item .wsus__chat_details {
+        max-width: 73%;
+    }
+
+    /* dashboard end */
+
 
 }
 
@@ -1794,5 +2066,114 @@
         font-size: 20px;
     }
 
+    /* service details start */
+    .wsus__service_det_slider {
+        height: 250px;
+    }
+
+    .wsus__service_det_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__service_det_center_img {
+        height: 250px;
+    }
+
+    .wsus__provide_item_top h5 {
+        width: 78%;
+    }
+
+    .wsus__service_det_quot {
+        padding: 20px;
+    }
+
+    .wsus__service_det_quot .images {
+        margin-bottom: 15px;
+    }
+
+    .wsus__service_det_text ul li {
+        width: 100%;
+    }
+
+    .wsus__service_det_text {
+        margin-bottom: 25px;
+    }
+
+    .wsus__sidebar_contact h4,
+    .wsus__sidebar_message h4,
+    .wsus__sidebar_faq h4 {
+        font-size: 18px;
+    }
+
+    .wsus__sidebar_contact p {
+        font-size: 16px;
+    }
+
+    .wsus__sidebar_contact a {
+        font-size: 16px;
+    }
+
+    .wsus__details_video h4 {
+        font-size: 20px;
+    }
+
+    /* service details end */
+
+    /* dashboard start */
+    .wsus__dashboard_item {
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment,
+    .wsus__transection_history,
+    .wsus__dashboard_profile,
+    .wsus__dashboard_message,
+    .wsus__dashboard_message_form {
+        margin-top: 25px;
+    }
+
+    .wsus__ashboard_appointment table .sn,
+    .wsus__transection_history tr .sn {
+        min-width: 50px;
+    }
+
+    .wsus__ashboard_appointment table .lawyer,
+    .wsus__ashboard_appointment table .chamber,
+    .wsus__ashboard_appointment table .date,
+    .wsus__ashboard_appointment table .schedule,
+    .wsus__ashboard_appointment table .status,
+    .wsus__transection_history tr .lawyer,
+    .wsus__transection_history tr .date {
+        min-width: 200px;
+    }
+
+    .wsus__dashboard_body table .action,
+    .wsus__transection_history tr .fee {
+        min-width: 100px;
+    }
+
+    .wsus__upcoming_meeting .time,
+    .wsus__upcoming_meeting .meeting_id {
+        min-width: 185px;
+    }
+
+    .wsus__upcoming_meeting .duration {
+        min-width: 120px;
+    }
+
+    .wsus__chat_item {
+        flex-wrap: nowrap;
+    }
+
+    .wsus__chat_item .wsus__chat_details .text {
+        padding: 5px;
+    }
+
+    .wsus__chat_item .wsus__chat_details {
+        max-width: 74%;
+    }
+
+    /* dashboard end */
 
 }
