@@ -1,6 +1,3 @@
-@media (min-width: 1400px) {}
-
-
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     .wsus__subscribe_text h3 {
@@ -17,28 +14,9 @@
     }
 
     /* contact start */
-    .wsus__contact_address {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 28px 10px;
-    }
-
-    .wsus__contact_address span {
-        position: static;
-        margin-bottom: 20px;
-        transform: translate(0%);
-        -webkit-transform: translate(0%);
-        -moz-transform: translate(0%);
-        -ms-transform: translate(0%);
-        -o-transform: translate(0%);
-    }
-
     .wsus__contact_address a,
     .wsus__contact_address p {
         font-size: 18px;
-        text-align: center;
     }
 
     .wsus__contact_form h4 {
@@ -85,6 +63,9 @@
         width: 85%;
     }
 
+    .wsus__dashboard_message_list .nav .nav-link .name {
+        max-width: 72%;
+    }
 
     /* service details end */
 
@@ -336,11 +317,6 @@
     /* service details end */
 
     /* dashboard start */
-    .wsus__dashboard_item {
-        margin-bottom: 0;
-        margin-top: 25px;
-    }
-
     .wsus__ashboard_appointment,
     .wsus__transection_history,
     .wsus__dashboard_profile,
@@ -384,6 +360,10 @@
 
     .wsus__chat_item .wsus__chat_details {
         max-width: 78%;
+    }
+
+    .wsus__dashboard_message_list .nav .nav-link .name {
+        max-width: 85%;
     }
 
     /* dashboard end */
@@ -584,13 +564,13 @@
 
     .main_menu .navbar-nav .dropdown-menu {
         top: 50px;
-        left: 50%;
+        left: 50% !important;
         max-height: 260px;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     .wsus__single_blog_img {
@@ -692,7 +672,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 40px 10px;
+        padding: 40px 10px !important;
     }
 
     .wsus__contact_address span {
@@ -887,6 +867,10 @@
 
     .wsus__chat_item .wsus__chat_details {
         max-width: 80%;
+    }
+
+    .wsus__dashboard_message_list .nav .nav-link .name {
+        max-width: 85%;
     }
 
     /* dashboard end */
@@ -1122,13 +1106,13 @@
 
     .main_menu .navbar-nav .dropdown-menu {
         top: 50px;
-        left: 50%;
+        left: 50% !important;
         max-height: 260px;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     .wsus__banner_text form {
@@ -1261,6 +1245,11 @@
 
     .wsus__sidebar_blog ul li a {
         width: 75%;
+    }
+
+    .wsus__single_comment_text h4 span {
+        width: 100%;
+        margin-top: 5px;
     }
 
     /* blog details end */
@@ -1443,14 +1432,12 @@
         max-width: 73%;
     }
 
+    .wsus__dashboard_message_list .nav .nav-link .name {
+        max-width: 85%;
+    }
+
     /* dashboard end */
-
-
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -1710,13 +1697,13 @@
 
     .main_menu .navbar-nav .dropdown-menu {
         top: 50px;
-        left: 50%;
+        left: 50% !important;
         max-height: 260px;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     .wsus__single_expert_img {
@@ -1892,6 +1879,11 @@
         width: 65%;
     }
 
+    .wsus__single_comment_text h4 span {
+        width: 100%;
+        margin-top: 5px;
+    }
+
     /* blog details end */
 
     /* contact start */
@@ -1900,7 +1892,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 30px 10px;
+        padding: 30px 10px !important;
     }
 
     .wsus__contact_address span {
@@ -2175,5 +2167,4 @@
     }
 
     /* dashboard end */
-
 }
