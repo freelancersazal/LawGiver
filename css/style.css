@@ -2762,182 +2762,19 @@ footer {
     margin: 4px 0px;
 }
 
-.wsus__qualification h3 {
-    margin-bottom: -10px;
+.wsus__qualification p {
+    margin-bottom: 20px;
 }
 
-.wsus__single_qualification {
-    padding: 30px 30px 20px 30px;
-    background: var(--colorWhite);
-    box-shadow: rgb(99 99 99 / 25%) 0px 0px 8px 0px;
-    position: relative;
-    border-bottom: 20px solid var(--colorPrimary);
-    margin-top: 30px;
-    width: auto;
+.wsus__qualification ul {
+    margin-bottom: 20px;
 }
 
-.wsus__single_qualification span {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    background: var(--colorPrimary);
-    display: block;
-    color: var(--colorWhite);
-    font-size: 20px;
-    border-radius: 0px 0px 10px 10px;
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
-
-.wsus__single_qualification span::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 1px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 11px solid #af1923;
-    transform: rotate(0deg);
-    top: -1px;
-    right: -10px;
-}
-
-.wsus__single_qualification span::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 1px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 11px solid #af1923;
-    transform: rotate(-94deg);
-    top: .5px;
-    left: -11px;
-}
-
-.wsus__single_qualification h4 {
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: var(--colorBlack);
-    margin: 25px 0px 18px 0px;
-}
-
-.wsus__single_qualification h5 {
+.wsus__qualification ul li {
     font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.wsus__single_qualification h6 {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
-    text-align: center;
-    margin: 13px 0px 10px 0px;
-}
-
-.wsus__single_qualification p {
-    font-size: 14px;
-    text-align: center;
-}
-
-.common_slider_2 .nextArrow,
-.common_slider_2 .prevArrow {
-    width: 25px;
-    height: 25px;
-    background: var(--colorPrimary);
-    text-align: center;
-    padding: 0;
-    line-height: 25px !important;
-    color: var(--colorWhite);
-    font-size: 12px;
-    border-radius: 3px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 12px;
-    z-index: 1;
-    transition: all linear .3s;
-    opacity: 0;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.common_slider_2 .prevArrow {
-    right: auto;
-    left: 12px;
-}
-
-.common_slider_2:hover .nextArrow,
-.common_slider_2:hover .prevArrow {
-    opacity: 1;
-}
-
-.wsus__single_experience {
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    margin-top: 25px;
-    width: auto;
-}
-
-.wsus__single_experience_text {
-    background: #EFEDED;
-    padding: 45px;
-    text-align: center;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.wsus__single_experience_text h4 {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
-    text-align: center;
-    color: var(--colorPrimary);
-    display: inline-block;
-    border-bottom: 3px solid var(--colorPrimary);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.wsus__single_experience_text p {
-    color: var(--colorPrimary);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.wsus__single_experience:hover .wsus__single_experience_text {
-    background: rgb(0 25 38 / 68%);
-}
-
-.wsus__single_experience:hover h4,
-.wsus__single_experience:hover p {
-    color: var(--colorWhite);
-    border-color: var(--colorWhite);
+    font-weight: 300;
+    color: var(--paraColor);
+    margin-bottom: 10px;
 }
 
 .wsus__gallery h3 {
